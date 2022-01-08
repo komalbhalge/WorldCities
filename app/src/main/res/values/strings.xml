@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WorldCities</string>
+    <string name="city_filter_hint">Search city…</string>
+    <!--Screen Names-->
+    <string name="home_screen">Home</string>
+    <string name="details_screen">City Detail</string>
+
+    <!--UI Messages-->
+    <string name="unknown_error_title">"Unknown error"</string>
+    <string name="unknown_error_message">"An unknown error has occurred."</string>
+    <string name="okay">Okay</string>
+    <string name="message_no_data">City list is empty!</string>
+    <string name="message_no_search_result">Sorry,  couldn\'t find a city that matches your search: </string>
+
+</resources>

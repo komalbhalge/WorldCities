@@ -1,0 +1,23 @@
+<resources>
+    <!--
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=4F:17:A4:1E:75:AE:E8:DB:BF:FC:BE:91:36:FE:81:7C:38:E4:5D:0C%3Bcom.kb.worldcities.ui.map
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.kb.worldcities.ui
+
+    SHA-1 certificate fingerprint:
+    4F:17:A4:1E:75:AE:E8:DB:BF:FC:BE:91:36:FE:81:7C:38:E4:5D:0C
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAa5Tn5G0aaaID9H4AfdU7TXo61a-7TDNk</string>
+</resources>

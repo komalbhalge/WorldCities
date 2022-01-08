@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[starts-with(@name,'org.jbox2d')]" />
+<remove-node path="/api/package[starts-with(@name,'org.slf4j')]" />
+</metadata>

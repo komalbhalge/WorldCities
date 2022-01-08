@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_smallest"
+    app:cardElevation="@dimen/elavation"
+    app:cardCornerRadius="@dimen/card_radius"
+    android:id="@+id/cardView"
+    app:cardPreventCornerOverlap="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_round_corner"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_small">
+
+        <TextView
+            android:id="@+id/cityTitle"
+            style="@style/TextAppearance_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="San Fransisco, US" />
+
+        <TextView
+            android:id="@+id/citySubTitle"
+            style="@style/TextAppearance_Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_smallest"
+            android:layout_marginTop="@dimen/margin_smallest"
+            tools:text="18.9, 890.0" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

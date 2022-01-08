@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kb.worldcities.ui.home.HomeFragment"
+        android:label="@string/home_screen"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_home_to_detailMap"
+            app:destination="@id/detailMapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailMapFragment"
+        android:name="com.kb.worldcities.ui.map.DetailMapFragment"
+        android:label="@string/details_screen"
+        tools:layout="@layout/detail_map_fragment">
+        <argument
+            android:name="cityDetails"
+            app:argType="com.kb.worldcities.data.entities.City" />
+    </fragment>
+</navigation>

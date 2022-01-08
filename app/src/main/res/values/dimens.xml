@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--UI Margins -->
+     <dimen name="margin_smallest">5dp</dimen>
+     <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+
+
+     <dimen name="elavation">5dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+
+    <!--UI Paddings -->
+     <dimen name="padding_small">10dp</dimen>
+    <!-- Text sizing values -->
+    <dimen name="text_size_h1">20sp</dimen>
+    <dimen name="text_size_h2">14sp</dimen>
+</resources>
