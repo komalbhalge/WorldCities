@@ -13,7 +13,7 @@ Before proceeding, ensure that you have the following requirements:
 2. Clone the project from github:
 
 git clone 
-https://github.com/city-search-kotlin
+hhttps://github.com/komalbhalge/WorldCities
 
 3. Install Android Studio and run through setup from the installer
 
